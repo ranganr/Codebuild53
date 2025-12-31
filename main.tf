@@ -181,7 +181,8 @@ resource "aws_codebuild_project" "project" {
 # CodeStar Connections: GitHub connection
 ############################
 resource "aws_codestarconnections_connection" "github" {
-  name          = "${var.pipeline_name}-github-connection"
+  #name          = "${var.pipeline_name}-github-connection"
+   name          = "cp-github-connection"
   provider_type = "GitHub"
 }
 
