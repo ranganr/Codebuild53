@@ -22,7 +22,7 @@ provider "aws" {
 ############################
 variable "region" {
   type        = string
-  default     = "ap-south-1"
+  default     = "us-west-2"
   description = "AWS region"
 }
 
